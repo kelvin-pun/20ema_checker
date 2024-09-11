@@ -27,6 +27,11 @@ This project is a **Telegram bot** built with Python, designed to help you track
 - [python-telegram-bot](https://python-telegram-bot.readthedocs.io/en/stable/)
 - [yfinance](https://pypi.org/project/yfinance/)
 - [pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
+- [tabulate](https://pypi.org/project/tabulate/)
+- [schedule](https://schedule.readthedocs.io/en/stable/index.html)
+
+
 
 ## Installation
 1. Clone the Repository
