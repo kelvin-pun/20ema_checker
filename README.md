@@ -51,6 +51,23 @@ Create a .env file in the project root and add your Telegram Bot Token and User 
 BOT_TOKEN=your_telegram_bot_token
 ALLOWED_USER_ID=your_telegram_user_id
 ```
+    
+    ## How to Find Your Telegram User ID
+    To configure the bot to send messages to you, you need your **Telegram User ID**. Here's how you can find it:
+    1. Search for the bot `userinfobot` in Telegram or [click here](https://t.me/userinfobot) to open the bot.
+    2. Click **Start**.
+    3. The bot will reply with your **Telegram User ID** along with other information like your first name and last name.
+    4. Copy your **Telegram User ID** and use it as the value for `ALLOWED_USER_ID` in your `.env` file or Docker environment variable.
+
+    ## How to Create a Telegram Bot using BotFather
+    To use this bot, you'll need to create a **Telegram bot** and obtain a **Bot Token** from BotFather. Follow the steps below to create your bot:
+    1. Open Telegram and search for the user **BotFather** or [click here](https://t.me/BotFather) to open the chat.
+    2. Click **Start** to begin interacting with BotFather.
+    3. Type the following command and press Enter: /newbot
+    4. BotFather will ask for a name for your bot. This can be any name (e.g., "MyStockBot").
+    5. After that, you’ll need to choose a **username** for your bot. The username must end with "bot" (e.g., "MyStockTickerBot").
+    6. Once you've chosen a username, BotFather will generate a **Bot Token** for you. It will look something like this: 1234567890
+    7. Copy this **Bot Token** and keep it secure. You will need to add it to your environment variables as shown below.
 
 4. Run the Bot
 ```
