@@ -121,3 +121,12 @@ File Structure
 
 Logging
 The bot uses Python's logging module to record warnings and errors. Logs are output to the console.
+
+## Notice: Use at Your Own Risk
+
+⚠️ **This project has not been fully tested.** While it is functional and has been developed with care, there may still be bugs or issues that haven't been addressed. 
+
+Use this code at your own risk. The author assumes no responsibility for any damage, data loss, or other issues that may arise from using this software.
+
+If you encounter any problems, please feel free to open an issue or submit a pull request to improve the project.
+
